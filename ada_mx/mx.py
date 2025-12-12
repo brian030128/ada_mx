@@ -9,7 +9,8 @@ def quantize(t: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
 
 
 # converts a row major scaling factor tensor into block layout
-# https://docs.nvidia.com/cuda/cublas/index.html#d-block-scaling-factors-layout 
+# https://docs.nvidia.com/cuda/cublas/index.html#d-block-scaling-factors-layout
+
 def to_block(t: torch.Tensor) -> torch.Tensor:
     pass
 
